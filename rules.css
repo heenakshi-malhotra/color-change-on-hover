@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body { 
+	   background-image:url("img/background.gif");
+}
+
+.border {
+		border: 10px;
+		border:thick;
+}
+.container {
+    position: relative;
+    top: 80px;
+	width: 780px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #faf58e;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 10px solid #000000;
+	text-align: center; /* this overrides the text-align: center on the body element. */
+	font-family:Cursive;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	
+}
+#part9 { position: absolute;
+		  top:250px;
+		  left: 650px;
+		  z-index: -2;
+		  transform: rotate(90deg);
+}

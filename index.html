@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Asier Exitus</title>
+    <link href="rules.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <style>
+#myHeader {
+  font-family: Courier;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+#myHeader2 {
+  font-family: Courier;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7dff97, 0 0 40px #7dff97, 0 0 50px #7dff97, 0 0 60px #7dff97, 0 0 70px #7dff97;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #7dff97, 0 0 40px #7dff97, 0 0 50px #7dff97, 0 0 60px #7dff97, 0 0 70px #7dff97, 0 0 80px #7dff97;
+  }
+}
+
+.face {
+    width:100px;
+    height:100px;
+    background-image:url('img/spoken.png');
+
+}
+.face:hover {
+    background-image: url('img/spoken-yellow');
+    cursor:pointer;
+}
+
+</style>
+
+  <body>
+  	
+   <center><h1 id="myHeader">ASIER EXITUS</h1></center>
+
+<center><a href="page01.html"><img src="img/earth.gif">
+<a href="page02.html"><img src="img/earth.gif">
+<a href="page03.html"><img src="img/earth.gif">
+
+<h1 id="myHeader2">CLICK ON PLAY BUTTON</h1>
+      <audio controls>
+         <source src = "msc/template.mp3" type = "audio/mpeg">
+      </audio>
+</center>
+<a href="page01.html"><div class="face"></div></a>
+</body>
+</html>
